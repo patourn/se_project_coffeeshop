@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .reservation__title {
@@ -12,11 +14,11 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  text-align: center;
 }
 
 .reservation__form {
-  /*width: ;*/
+  max-width: 385px;
   margin-top: 80px;
+  margin-bottom: 120px;
 }

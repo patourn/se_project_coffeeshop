@@ -37,7 +37,7 @@
         </nav>
         <h1 class="header__title">
           <span class="header__span-accent">Specialty coffee</span>
-          <span>in the Practicum Libray</span>
+          <span>in the Practicum Library</span>
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -49,14 +49,13 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__paragraph">
-            Hours:
-            Monday - Friday (10:00 - 19:00)
-            Saturday - Sunday (11:00 - 18:00)
-            </div>
+          <div class="header__paragraph-hours">
+            <p>Hours:</p>
+            <p>Monday - Friday (10:00 - 19:00)</p>
+            <p>Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <div class-="header__paragraph">
-            200 Success Avenue, The Town of Practicum
+          <div class="header__paragraph-address">
+            <p>200 Success Avenue, The Town of Practicum</p>
           </div>
         </div>
       </header>
@@ -67,7 +66,7 @@
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
-          <div class="menu_cards">
+          <div class="menu__cards">
             <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__content">
@@ -166,56 +165,46 @@
           </ul>
         </section>
         <section class="reservation" id="reservation">
-          <div class="container__form">
-            <form class="reservation__form">
-          <h1 class="reservation__title">Book a table</h1>
-        <fieldset class="form__fieldset">
-          <p class="form__label">Name *</p>
-          <input
-          type="text"
-          class="form__input"
-          id="name"
-          placeholder="Name Surname"
-          />
-        </fieldset>
-        <fieldset class="form__fieldset">
-          <p class="form__label">Number of guests *</p>
-          <input
-          type="number"
-          class="form__input"
-          id="number"
-          placeholder="1-8"
-          />
-        </fieldset>
-        <fieldset class="form__fieldset">
-          <p class="form__label">Date & Time *</p>
-<input
-type="datetime-local"
-id="date-and-time"
-class="form__input"
-/>
-<fieldset class="form__fieldset">
-<p class="form__label">Your email *</p>
-<input
-              type="email"
-              class="form__input"
-              id="email"
-              required
-              placeholder="email@email.com"
-            />
-        </fieldset>
-          <fieldset class="form__fieldset">
-            <button type="submit" class="form__button">Book a table</button>
-          </fieldset>
-          <fieldset class="form__fieldset">
-            <label class="form__label form__label_checkbox">
-              <input type="checkbox" class="form__checkbox" />
-              I agree with the terms of use
-            </label>
-          </fieldset>
+          <div class="container__form"></div>
+          <form class="reservation__form">
+            <div class="reservation__title">Book a table</div>
+            <!--<form class="reservation__form form">-->
+            <div class="form__fieldset">
+              <div class="form__label">Name*</div>
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Name Surname"
+                required
+              />
+              <div class="form__label">Number of guests*</div>
+              <input
+                class="form__input"
+                type="number"
+                min="1"
+                max="0"
+                placeholder="1-8"
+                required
+              />
+              <div class="form__label">Date & time*</div>
+              <input class="form__input" type="datetime-local" />
+              <div class="form__label">Your email*</div>
+              <input
+                class="form__input"
+                type="email"
+                placeholder="email@email.com"
+                required
+              />
+              <button type="button" class="form__button">Book a table</button>
+              <input class="form__checkbox" type="checkbox" id="tos" required />
+              <label for="tos" class="form__label"
+                >I agree with the terms of use</label
+              >
+            </div>
+          </form>
         </section>
         <section class="about" id="about">
-          <h2 class="about__title">About the<br/>coffee shop</h2>
+          <h2 class="about__title">About the<br />coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Practicum Library's hall. It
@@ -229,8 +218,8 @@ class="form__input"
               don't sell single-use cups. But you can buy one of our reusable
               cups!
             </p>
-        </div>
-        <div class="about__circle about__circle_animation_blurred"></div>
+          </div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer" id="footer">
