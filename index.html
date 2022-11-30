@@ -13,7 +13,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
@@ -49,14 +49,14 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__paragraph-hours">
-            <p>Hours:</p>
-            <p>Monday - Friday (10:00 - 19:00)</p>
-            <p>Saturday - Sunday (11:00 - 18:00)</p>
+          <div class="header__hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <div class="header__paragraph-address">
-            <p>200 Success Avenue, The Town of Practicum</p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Practicum
+          </p>
         </div>
       </header>
       <main>
@@ -144,7 +144,7 @@
               <iframe
                 class="recipes__iframe"
                 allowfullscreen
-                src="https://www.youtube.com/watch?v=j6VlT_jUVPc"
+                src="https://www.youtube.com/embed?v=j6VlT_jUVPc"
               ></iframe>
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span>
@@ -155,7 +155,7 @@
               <iframe
                 class="recipes__iframe"
                 allowfullscreen
-                src="https://www.youtube.com/watch?v=st571DYYTR8"
+                src="https://www.youtube.com/embed?v=st571DYYTR8"
               ></iframe>
               <p class="recipes__video-caption">
                 <span>French press recipe</span>
@@ -168,7 +168,6 @@
           <div class="container__form"></div>
           <form class="reservation__form">
             <div class="reservation__title">Book a table</div>
-            <!--<form class="reservation__form form">-->
             <div class="form__fieldset">
               <div class="form__label">Name*</div>
               <input
