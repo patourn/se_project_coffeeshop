@@ -3,21 +3,17 @@
   max-width: 385px;
 }
 
-.reservation__form {
-  font-size: 18;
-  box-sizing: border-box;
-}
-
 .form__fieldset {
   margin: 100px auto 24px;
-  font-size: 18;
+  font-size: 18px;
+  border: none;
 }
 
 .form__label {
   margin: 0 auto 8px auto;
   box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
-  font-size: 16;
+  font-size: 16px;
   font-weight: 500;
   line-height: 20px;
 }

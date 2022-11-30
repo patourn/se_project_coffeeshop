@@ -165,42 +165,49 @@
           </ul>
         </section>
         <section class="reservation" id="reservation">
-          <div class="container__form"></div>
-          <form class="reservation__form">
-            <div class="reservation__title">Book a table</div>
-            <div class="form__fieldset">
-              <div class="form__label">Name*</div>
-              <input
-                class="form__input"
-                type="text"
-                placeholder="Name Surname"
-                required
-              />
-              <div class="form__label">Number of guests*</div>
-              <input
-                class="form__input"
-                type="number"
-                min="1"
-                max="0"
-                placeholder="1-8"
-                required
-              />
-              <div class="form__label">Date & time*</div>
-              <input class="form__input" type="datetime-local" />
-              <div class="form__label">Your email*</div>
-              <input
-                class="form__input"
-                type="email"
-                placeholder="email@email.com"
-                required
-              />
-              <button type="button" class="form__button">Book a table</button>
-              <input class="form__checkbox" type="checkbox" id="tos" required />
-              <label for="tos" class="form__label"
-                >I agree with the terms of use</label
-              >
-            </div>
-          </form>
+          <div class="container__form">
+            <form class="reservation__form">
+              <h1 class="reservation__title">Book a table</h1>
+              <fieldset class="form__fieldset">
+                <p class="form__label">Name*</p>
+                <input
+                  class="form__input"
+                  type="text"
+                  id="name"
+                  placeholder="Name Surname"
+                  required
+                />
+                <p class="form__label">Number of guests*</p>
+                <input
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="0"
+                  placeholder="1-8"
+                  required
+                />
+                <p class="form__label">Date & time*</p>
+                <input class="form__input" type="datetime-local" />
+                <div class="form__label">Your email*</div>
+                <input
+                  class="form__input"
+                  type="email"
+                  placeholder="email@email.com"
+                  required
+                />
+                <button type="button" class="form__button">Book a table</button>
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="tos"
+                  required
+                />
+                <label for="tos" class="form__label"
+                  >I agree with the terms of use</label
+                >
+              </fieldset>
+            </form>
+          </div>
         </section>
         <section class="about" id="about">
           <h2 class="about__title">About the coffee shop</h2>
