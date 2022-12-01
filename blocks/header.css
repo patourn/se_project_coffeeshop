@@ -7,7 +7,7 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 30px 80px 30px 80px;
+  padding: 30px 80px 40px 80px;
   position: relative;
   box-sizing: border-box;
   z-index: 0;
@@ -29,7 +29,7 @@
   font-size: 60px;
   line-height: 72px;
   max-width: 729px;
-  margin: 202px 0 0;
+  margin-top: 202px;
 }
 
 .header__span-accent {
@@ -47,7 +47,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  left: -80px;
+  top: 80px;
 }
 
 .header__footer {

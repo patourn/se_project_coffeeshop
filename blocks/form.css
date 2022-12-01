@@ -1,21 +1,35 @@
 .form {
-  margin: 0 auto 120px auto;
-  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 120px;
+  align-items: center;
 }
 
 .form__fieldset {
-  margin: 100px auto 24px;
   font-size: 18px;
   border: none;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.form__fieldset:last-of-type {
+  margin-bottom: 0;
 }
 
 .form__label {
-  margin: 0 auto 8px auto;
+  margin-bottom: 8px;
   box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
+}
+
+.form__label:last-of-type {
+  margin-bottom: 0;
 }
 
 .form__input {
