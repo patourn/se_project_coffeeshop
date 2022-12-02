@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 100px 100px 45px;
+  padding: 100px 0 45px;
   color: #fff;
 }
 
@@ -13,8 +13,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 24px;
+  margin: 0 auto 24px;
   text-align: center;
+  max-width: 780px;
 }
 
 .menu__subtitle {
@@ -23,7 +24,7 @@
   line-height: 30px;
   text-align: center;
   margin: 0 auto;
-  max-width: 845px;
+  max-width: 780px;
 }
 
 .menu__cards {
@@ -31,5 +32,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 17px 40px;
-  margin-top: 71px;
+  max-width: 1300px;
+  margin: 71px auto 0;
 }
